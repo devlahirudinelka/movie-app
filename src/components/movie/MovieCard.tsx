@@ -16,7 +16,7 @@ export const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
   return (
     <Link 
       to={`/movie/${movie.id}`}
-      className="group bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+      className="group bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 "
     >
       <div className="relative overflow-hidden aspect-[2/3]">
         <img

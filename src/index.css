@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-Bossa: 'Bossa', sans-serif;
+}
+
+body {
+  font-family: var(--font-Bossa);
+  /* background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0; */
+}

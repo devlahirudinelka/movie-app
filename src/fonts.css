@@ -1,0 +1,42 @@
+/* fonts.css */
+@font-face {
+  font-family: 'Bossa';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Bossa-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bossa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Bossa-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bossa';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Bossa-ExtendedBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bossa Extended';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Bossa-ExtendedLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bossa Extended';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Bossa-ExtendedRegular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bossa Extended';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Bossa-ExtendedBold.woff2') format('woff2');
+}
