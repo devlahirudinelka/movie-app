@@ -100,7 +100,7 @@ export const MovieDetail: React.FC<MovieDetailProps> = ({ movie }) => {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               <div className="bg-gray-800 p-4 rounded-lg">
-                <div className="flex items-center text-yellow-500 mb-2">
+                <div className="flex items-center text-bgfive mb-2">
                   <Star className="w-5 h-5 mr-2 fill-current" />
                   <span className="font-semibold">Rating</span>
                 </div>

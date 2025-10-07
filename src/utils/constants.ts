@@ -15,7 +15,7 @@ export const IMAGE_SIZES = {
 };
 
 export const API_CONFIG = {
-  DEBOUNCE_DELAY: 500,
+  DEBOUNCE_DELAY: 5000,
   MOVIES_PER_PAGE: 20,
 };
 

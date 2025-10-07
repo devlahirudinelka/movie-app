@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-gray-900 border-b border-gray-800 sticky top-0 z-50 shadow-lg">
+    <header className="bg-bgfour border-b border-gray-800 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -18,9 +18,9 @@ export const Header: React.FC = () => {
             to="/" 
             className="flex items-center gap-2 hover:opacity-80 transition-opacity group"
           >
-            <Film className="w-8 h-8 text-yellow-500 group-hover:rotate-12 transition-transform" />
+            <Film className="w-8 h-8 text-bgfive group-hover:rotate-12 transition-transform" />
             <h1 className="text-2xl font-bold text-white">
-              Movie<span className="text-yellow-500">Browser</span>
+              Movie<span className="text-bgfive">Hub</span>
             </h1>
           </Link>
 
@@ -30,7 +30,7 @@ export const Header: React.FC = () => {
               to="/"
               className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
                 isActive('/') 
-                  ? 'bg-yellow-500 text-black font-semibold' 
+                  ? 'bg-bgfive text-black font-semibold' 
                   : 'text-gray-300 hover:text-white hover:bg-gray-800'
               }`}
             >
@@ -42,7 +42,7 @@ export const Header: React.FC = () => {
               to="/search"
               className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
                 isActive('/search') 
-                  ? 'bg-yellow-500 text-black font-semibold' 
+                  ? 'bg-bgfive text-black font-semibold' 
                   : 'text-gray-300 hover:text-white hover:bg-gray-800'
               }`}
             >

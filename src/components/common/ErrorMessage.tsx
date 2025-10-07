@@ -14,7 +14,7 @@ export const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, onRetry }) 
       {onRetry && (
         <button
           onClick={onRetry}
-          className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-2 rounded-lg transition-colors duration-200"
+          className="bg-bgfive hover:bg-yellow-600 text-black font-semibold px-6 py-2 rounded-lg transition-colors duration-200"
         >
           Try Again
         </button>

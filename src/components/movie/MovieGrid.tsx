@@ -28,7 +28,7 @@ export const MovieGrid: React.FC<MovieGridProps> = ({
 
   return (
     <div className="w-full">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 md:gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
@@ -44,7 +44,7 @@ export const MovieGrid: React.FC<MovieGridProps> = ({
         <div className="flex justify-center py-12">
           <button
             onClick={onLoadMore}
-            className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3 rounded-lg transition-colors duration-200"
+            className="bg-bgfive hover:bg-yellow-600 text-black font-semibold px-8 py-3 rounded-lg transition-colors duration-200"
           >
             Load More
           </button>

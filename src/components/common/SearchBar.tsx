@@ -54,7 +54,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         onChange={handleChange}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        className="w-full pl-12 pr-12 py-3 bg-gray-800 text-white rounded-lg border border-gray-700 focus:border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500/20 transition-all"
+        className="w-full pl-12 pr-12 py-3 bg-gray-800 text-white rounded-lg border border-gray-700 focus:border-bgfive focus:outline-none focus:ring-2 focus:ring-bgfive/20 transition-all"
         aria-label="Search movies"
       />
       {query && (

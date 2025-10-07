@@ -12,13 +12,13 @@ export const HomePage: React.FC = () => {
     <div className="flex flex-col min-h-screen bg-gray-900">
       <Header />
       
-      <main className="flex-1 container mx-auto px-4 py-8">
+      <main className="flex-1 container mx-auto px-4 py-16">
         {/* Hero Section */}
-        <div className="mb-8">
+        <div className="mb-8 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Popular Movies
           </h1>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-lg font-light">
             Discover the most popular movies right now
           </p>
         </div>
