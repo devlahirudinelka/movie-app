@@ -1,5 +1,3 @@
-// src/services/tmdb.ts
-
 import axios, { type AxiosInstance } from 'axios';
 import type { MoviesResponse, MovieDetail } from '../types/movie';
 import { TMDB_API_KEY, TMDB_BASE_URL } from '../utils/constants';

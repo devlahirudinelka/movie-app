@@ -1,5 +1,3 @@
-// src/pages/MovieDetailPage.tsx
-
 import { useParams, Link } from 'react-router-dom';
 import { useMovieDetail } from '../hooks/useMovieDetail';
 import { Loader } from '../components/common/Loader';
