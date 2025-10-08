@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           </Link>
 
           {/* Copyright */}
-          <p className="text-gray-500 text-sm flex items-center gap-2">
+          <p className="text-gray-500 text-[0.5rem] lg:text-sm flex items-center gap-2">
             © {currentYear} MovieHub • Made with{' '}
           <strong>devlahirudinelka</strong>.
           </p>

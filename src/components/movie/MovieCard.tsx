@@ -92,11 +92,11 @@ export const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
          </div>
 
          <div className="p-4">
-            <h3 className="text-white font-semibold text-lg mb-2 line-clamp-1 group-hover:text-yellow-300 transition-colors">
+            <h3 className="text-white font-semibold text-[0.8rem] mb-2 line-clamp-2 group-hover:text-yellow-300 transition-colors">
                {movie.title}
             </h3>
 
-            <p className="text-gray-400 text-sm line-clamp-2 font-light">
+            <p className="text-gray-400 text-xs line-clamp-2 font-light">
                {movie.overview || 'No description available.'}
             </p>
          </div>

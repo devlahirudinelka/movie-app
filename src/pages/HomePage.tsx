@@ -15,10 +15,10 @@ export const HomePage: React.FC = () => {
       <main className="flex-1 container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="mb-8 flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Popular Movies
           </h1>
-          <p className="text-gray-400 text-lg font-light">
+          <p className="text-gray-400 text-[0.8rem] lg:text-lg font-light">
             Discover the most popular movies right now
           </p>
         </div>
